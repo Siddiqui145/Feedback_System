@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback System</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a class="active" href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+        <button class="logout-btn" onclick="window.location.href='login.html'">Logout</button>
+
+        <header>
+            <h1>Feedback</h1>
+            <p class="header-description">Feedback is essential for growth and improvement. It provides valuable insights, helps identify strengths and weaknesses, and guides positive change.</p>
+        </header>
+
+        <div class="slider">
+            <div><img src="images/image1.jpeg" alt="Image 1"></div>
+            <div><img src="images/image2.jpeg" alt="Image 2"></div>
+            <div><img src="images/image3.jpeg" alt="Image 3"></div>
+            <div><img src="images/image4.jpeg" alt="Image 4"></div>
+            <div><img src="images/image5.jpeg" alt="Image 5"></div>
+        </div>
+
+        <section class="mission-vision">
+            <div class="card">
+                <h2>OUR VISION</h2>
+                <p>Eliminating the darkness of ignorance from the lives of people living in poverty and helping them advance towards knowledge for development.</p>
+            </div>
+
+            <div class="card">
+                <h2>OUR MISSION</h2>
+                <p>Providing quality education to the socially and economically backward class and promoting educational development in rural areas.</p>
+            </div>
+
+            <div class="card">
+                <h2>IMPORTANCE OF FEEDBACK</h2>
+                <p>Addressing feedback positively can enhance an organization's reputation and build trust through responsiveness and commitment to improvement.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+    dots: false,  
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000
+});
+
+    </script>
+</body>
+
+</html>

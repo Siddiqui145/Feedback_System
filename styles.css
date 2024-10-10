@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+.feedback-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.feedback-form .form-check {
+    margin-bottom: 10px;
+}
+
+.feedback-form .form-check-label {
+    margin-left: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+}
